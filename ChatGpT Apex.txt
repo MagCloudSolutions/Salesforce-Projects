@@ -12,7 +12,7 @@ public class ChatGPT {
             HttpRequest request = new HttpRequest();
             request.setEndpoint('https://api.openai.com/v1/completions');
             request.setMethod('POST');
-            request.setHeader('Authorization', 'Bearer '+('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'));
+            request.setHeader('Authorization', 'Bearer '+('sk-########################################'));
             request.setTimeout(120000);
             request.setHeader('Content-Type', 'application/json');
             // Set the body as a JSON object
